@@ -37,7 +37,7 @@ In addition, it is difficult to maintain the live preview for a long time.
 
 ### Solution
 
-To solve this task, I used [this THETA plug-in that extended the live-preview command](../). In addition, by utilizing the dual core of ESP32, the live-preview can be displayed at around 9.5fps in most cases.
+To solve this task, I used [this THETA plug-in that extended the live-preview command](https://github.com/theta-skunkworks/theta-plugin-extendedpreview). In addition, by utilizing the dual core of ESP32, the live-preview can be displayed at around 9.5fps in most cases.
 (The result varies depending on the scene. In the case of slightly dark and low contrast, it is about 10 to 12 fps. In the case of complete darkness, it is about 2 to 4 fps.)
 
 The measures implemented and their effects are as follows.
@@ -129,7 +129,7 @@ The following phenomena have been confirmed with M5Stack FIRE.
 * RICOH THETA V Firmware ver.3.21.1 and above
 * RICOH THETA Z1 Firmware ver.1.31.1 and above
 
-In any case, use the [THETA Plug-in with extended live-preview](../).
+In any case, use the [THETA Plug-in with extended live-preview](https://github.com/theta-skunkworks/theta-plugin-extendedpreview).
 
 ### M5Stack
 

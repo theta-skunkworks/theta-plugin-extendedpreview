@@ -37,7 +37,7 @@ English page [here](README.md)
 
 ### 解決方法
 
-この課題を解決するため、ライブプリビューコマンドを拡張した[こちらのTHETAプラグイン](../)を利用しました。さらに、ESP32のデュアルコアを活用することで、大抵の場合 9.5fps程度でライブプリビューを表示できるようにしました。
+この課題を解決するため、ライブプリビューコマンドを拡張した[こちらのTHETAプラグイン](https://github.com/theta-skunkworks/theta-plugin-extendedpreview)を利用しました。さらに、ESP32のデュアルコアを活用することで、大抵の場合 9.5fps程度でライブプリビューを表示できるようにしました。
 （シーンにより結果が変動します。ほんのり暗くコントラストが低いケースでは10～12fps程度となります。完全な暗闇に近いケースでは、およそ2～4fps程度となります。）
 
 実施した施策とその効果は、以下のとおりです。
@@ -127,7 +127,7 @@ M5Stack BASIC or GRAY (M5 Code Ver 2018.3以降)での利用を推奨します�
 * RICOH THETA V Firmware ver.3.21.1 and above
 * RICOH THETA Z1 Firmware ver.1.31.1 and above
 
-いずれについも、[ライブプリビューが拡張されたTHETA Plug-in](../)を併用すること。
+いずれについも、[ライブプリビューが拡張されたTHETA Plug-in](https://github.com/theta-skunkworks/theta-plugin-extendedpreview)を併用すること。
 
 ### M5Stack
 
