@@ -4,7 +4,7 @@ Japanese page [here](README_jp.md)
 
 ## Overview
 
-A sample program that displays a live-preview at a practical frame rate on the M5 Stack by using [this THETA Plug-in](../) together. 
+A sample program that displays a live-preview at a practical frame rate on the M5 Stack by using [this THETA Plug-in](https://github.com/theta-skunkworks/theta-plugin-extendedpreview) together. 
 
 ![theta_preview](./img/theta_preview.gif)
 

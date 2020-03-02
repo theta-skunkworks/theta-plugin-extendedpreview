@@ -4,7 +4,7 @@ English page [here](README.md)
 
 ## 概要
 
-[こちらのTHETA Plug-in](../)を併用することで、M5 Stackに実用的なフレームレートでライブプリビューを表示するサンプルプログラムです。
+[こちらのTHETA Plug-in](https://github.com/theta-skunkworks/theta-plugin-extendedpreview)を併用することで、M5 Stackに実用的なフレームレートでライブプリビューを表示するサンプルプログラムです。
 
 ![theta_preview](./img/theta_preview.gif)
 
