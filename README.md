@@ -169,9 +169,27 @@ Please delete or rewrite this part according to your own purpose.
                     byte[] jpegFrame = latestLvFrame;
                     if ( jpegFrame != null ) {
 
+
                        **** OLED display sample code ****
 
+
+                        outFps++;
+                    } else {
+                        try {
+                            Thread.sleep(33);
+                        } catch (InterruptedException e) {
+                            e.printStackTrace();
+                        }
                     }
+
+                    long curTime = System.currentTimeMillis();
+                    long diffTime = curTime - startTime;
+                    if (diffTime >= 1000 ) {
+                        Log.d(TAG, "[OLED]" + String.valueOf(outFps) + "[fps]" );
+                        startTime = curTime;
+                        outFps =0;
+                    }
+
                 }
             }
         }).start();
