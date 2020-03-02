@@ -150,7 +150,7 @@ The display of the THETA Z1 OLED display changes in the order of "normal display
 This corresponds to the part of the source code below that is abbreviated as "**** OLED display sample code ****".<br>
 Please delete or rewrite this part according to your own purpose.
 
-[app/src/main/java/com/theta360/extendedpreview/MainActivity.java](app/src/main/java/com/theta360/extendedpreview/MainActivity.java#L344-418)
+[app/src/main/java/com/theta360/extendedpreview/MainActivity.java](app/src/main/java/com/theta360/extendedpreview/MainActivity.java#L344-L418)
 
 ```:MainActivity.java
     //==============================================================
@@ -196,7 +196,7 @@ Live-previews can be obtained simultaneously from multiple devices on the same n
 This type of usage places a heavy load on THETA, but you can reduce the load by adjusting the frequency of frame updates from the browser.
 The following is the relevant part of the source code. Currently, the code attempts to update the frame at intervals of about 30 ms.
 
-[app/src/main/assets/js/preview.js](app/src/main/assets/js/preview.js#L79-90)
+[app/src/main/assets/js/preview.js](app/src/main/assets/js/preview.js#L79-L90)
 
 ```:preview.js
 function repeat() {
