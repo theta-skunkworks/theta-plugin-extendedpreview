@@ -48,7 +48,7 @@ English page [here](README.md)
 
 ![processing_time](./img/processing_time.jpg)
 
-各コアのメインルーチンが記されているファイル["ThetaPreview.ino"](./ThetaPreview/ThetaPreview.ino)を参照すると、処理全体の流れを理解できます。ソースコード一式は[ThetaPreviewフォルダ](ThetaPreview)にあります。ソースコード一式は ["ThetaPreview"](./ThetaPreview)にあります。
+各コアのメインルーチンが記されているファイル["ThetaPreview.ino"](./ThetaPreview/ThetaPreview.ino)を参照すると、処理全体の流れを理解できます。ソースコード一式は[ThetaPreviewフォルダ](ThetaPreview)にあります。
 
 上の画像は、映像品質50%（1フレームのデータサイズがおよそ9KB）であるときの処理時間を、オシロスコープで測定した結果です。
 この画像を見ると、Core1に余裕があるため、映像品質を上げてても（１フレームのデータサイズを大きくしても）フレームレートに影響がないかのような誤解をするかもしれません。実際に行ってみると、映像品質を上げた影響により、JPEG解凍時間が延び、フレームレートが低下します。
