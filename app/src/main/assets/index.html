@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>Live-Preview Sample</title>
+    <script src="js/preview.js"></script>
+  </head>
+  <body onLoad="startLivePreview();updatePreviwFrame();">
+    <h1>
+      Live-Preview Sample
+    </h1>
+    <img id="lvimg" src="" width="640" height="320">
+    <br>
+    <br>
+    <br>
+    <input name="preview" type="radio" value="off" onclick="stopLivePreview();"> OFF
+    <input name="preview" type="radio" value="on"  onclick="startLivePreview();"> ON
+    <br>
+    <br>
+    <input name="ev" type="radio" value=-2.0 onclick="setEv(value);"> -2.0
+    <input name="ev" type="radio" value=-1.7 onclick="setEv(value);"> -1.7
+    <input name="ev" type="radio" value=-1.3 onclick="setEv(value);"> -1.3
+    <input name="ev" type="radio" value=-1.0 onclick="setEv(value);"> -1.0
+    <input name="ev" type="radio" value=-0.7 onclick="setEv(value);"> -0.7
+    <input name="ev" type="radio" value=-0.3 onclick="setEv(value);"> -0.3
+    <input name="ev" type="radio" value=0.0 onclick="setEv(value);"> 0.0
+    <input name="ev" type="radio" value=0.3 onclick="setEv(value);"> 0.3
+    <input name="ev" type="radio" value=0.7 onclick="setEv(value);"> 0.7
+    <input name="ev" type="radio" value=1.0 onclick="setEv(value);"> 1.0
+    <input name="ev" type="radio" value=1.3 onclick="setEv(value);"> 1.3
+    <input name="ev" type="radio" value=1.7 onclick="setEv(value);"> 1.7
+    <input name="ev" type="radio" value=2.0 onclick="setEv(value);"> 2.0
+    <br>
+    <br>
+    <input type="button" value="Take Picture" onclick="takePicture()">
+    
+  </body>
+</html>
