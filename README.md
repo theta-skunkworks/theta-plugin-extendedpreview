@@ -1,7 +1,7 @@
 # Extended Live-Preview THETA Plug-in Sample
 
-より詳しい日本語の説明は[こちら](https://qiita.com/KA-2/items/公開後にリンクを更新します)。<br>
-[Click here](https://qiita.com/KA-2/items/公開後にリンクを更新します) for a more detailed explanation in Japanese.
+より詳しい日本語の説明は[こちら](https://qiita.com/KA-2/items/cef05a4960663bd2ba2f)。<br>
+[Click here](https://qiita.com/KA-2/items/cef05a4960663bd2ba2f) for a more detailed explanation in Japanese.
 
 ## Overview
 
