@@ -134,7 +134,7 @@ In any case, use the [THETA Plug-in with extended live-preview](https://github.c
 ### M5Stack
 
 * M5Stack BASIC (M5 Core Ver : 2017.6 \*1, 2018.3)
-* M5Stack GRAY (M5 Core Ver : 2017.6 \*1)
+* M5Stack GRAY (M5 Core Ver : 2017.6 \*1, 2018.3)
 * M5Stack FIRE (M5 Core Ver : 2018.2A \*2)
 
 \* 1: If the M5 Core Ver is old, battery information cannot be obtained from the charging IC (IP5306).<br>

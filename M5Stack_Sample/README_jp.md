@@ -132,7 +132,7 @@ M5Stack BASIC or GRAY (M5 Code Ver 2018.3以降)での利用を推奨します�
 ### M5Stack
 
 * M5Stack BASIC (M5 Core Ver : 2017.6 \*1, 2018.3)
-* M5Stack GRAY (M5 Core Ver : 2017.6 \*1)
+* M5Stack GRAY (M5 Core Ver : 2017.6 \*1, 2018.3)
 * M5Stack FIRE (M5 Core Ver : 2018.2A \*2)
 
 \*1:M5 Core Verが古いと充電IC(IP5306)からバッテリー情報を取得できません。<br>
